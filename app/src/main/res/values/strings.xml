@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">我的翻译App</string>
+    <string name="hello_world">Hello World</string>
+    <!-- login_layout    -->
+    <string name="login_label_val">翻译App系统</string>
+    <string name="login_account_input_val">请输入邮箱:</string>
+    <string name="login_password_input_val">请输入密码:</string>
+    <string name="login_to_register_val">[ 注册 ]</string>
+    <string name="system_info_label_val">系统简介:</string>
+    <string name="login_button_val">登录</string>
+    <string name="system_info_val">使用移动互联网结合JavaWeb与网络爬虫技术,对中英文信息进行高效的翻译和检索。</string>
+
+    <!--  function_select_layout   -->
+    <string name="function_translation_text_val">文本翻译</string>
+    <string name="function_word_query_val">单词查询</string>
+</resources>

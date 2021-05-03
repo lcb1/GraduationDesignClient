@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+    <TextView
+        android:id="@+id/login_label_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/login_label_val"
+        android:textSize="@dimen/title_size"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        />
+    <EditText
+        android:id="@+id/login_account_input_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/login_label_view"
+        android:layout_marginHorizontal="@dimen/text_horizontal_margin_size"
+        android:hint="@string/login_account_input_val"
+        android:textSize="@dimen/smaller_title_size"
+        android:textStyle="bold"
+        />
+    <EditText
+        android:id="@+id/login_password_input_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/login_account_input_view"
+        android:layout_marginTop="@dimen/vertical_margin_normal"
+        android:layout_marginHorizontal="@dimen/text_horizontal_margin_size"
+        android:hint="@string/login_password_input_val"
+        android:inputType="textPassword"
+        android:textSize="@dimen/smaller_title_size"
+        android:textStyle="bold"
+        />
+
+    <Button
+        android:id="@+id/login_button_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/login_password_input_view"
+        android:text="@string/login_button_val"
+        android:textSize="@dimen/small_title_size"
+        android:layout_marginTop="@dimen/vertical_margin_normal"
+        android:layout_marginHorizontal="@dimen/text_horizontal_margin_size"
+        />
+
+    <TextView
+        android:id="@+id/login_to_register_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/login_to_register_val"
+        android:textSize="@dimen/small_size"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/login_button_view"
+        android:layout_marginTop="@dimen/vertical_margin_normal"
+        android:layout_marginHorizontal="@dimen/text_horizontal_margin_size"
+        />
+    <TextView
+        android:id="@+id/system_info_label_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/system_info_label_val"
+        android:textSize="@dimen/small_title_size"
+        app:layout_constraintTop_toBottomOf="@id/login_to_register_view"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_marginTop="@dimen/vertical_margin_large"
+        android:layout_marginHorizontal="@dimen/text_horizontal_margin_size"
+        />
+    <TextView
+        android:id="@+id/system_info_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/system_info_val"
+        android:textSize="@dimen/normal_size"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/system_info_label_view"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="@dimen/vertical_margin_normal"
+        android:layout_marginHorizontal="@dimen/text_horizontal_margin_size"
+        />
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
