@@ -30,8 +30,13 @@ class FunctionSelectActivity:BaseActivity() {
     }
 
     fun handleTranslationViewClicked(){
-
+        jumpToTranslationActivity()
     }
+
+    fun jumpToTranslationActivity(){
+        TranslationActivity.startActivity()
+    }
+
     fun handleWordQueryViewClicked(){
 
     }

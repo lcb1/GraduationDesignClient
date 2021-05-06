@@ -62,7 +62,7 @@ class MainActivity :BaseActivity() {
         mViewModel=ViewModelProvider(this).get(LoginViewModel::class.java)
     }
 
-    fun handleLoginLiveDataObserver(result: Result){
+    private fun handleLoginLiveDataObserver(result: Result){
         AppUtil.toastShow {
             result.getDataString()
         }
@@ -72,7 +72,7 @@ class MainActivity :BaseActivity() {
         }
     }
 
-    fun loginIsOk(){
+    private fun loginIsOk(){
         FunctionSelectActivity.startActivity()
         finish()
     }

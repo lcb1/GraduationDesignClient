@@ -13,4 +13,7 @@
     <!--  function_select_layout   -->
     <string name="function_translation_text_val">文本翻译</string>
     <string name="function_word_query_val">单词查询</string>
+
+    <!--  translation_layout      -->
+    <string name="translation_button_view_val">翻译</string>
 </resources>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <EditText
+        android:id="@+id/raw_text_input_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toTopOf="parent"
+        android:lines="5"
+        android:gravity="top"
+        android:layout_marginTop="@dimen/vertical_margin_normal"
+        android:layout_marginHorizontal="@dimen/text_horizontal_margin_size"
+        />
+    <Button
+        android:id="@+id/translation_button_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/raw_text_input_view"
+        android:layout_marginTop="@dimen/vertical_margin_normal"
+        android:layout_marginHorizontal="@dimen/text_horizontal_margin_size"
+        android:text="@string/translation_button_view_val"
+        android:textSize="@dimen/smaller_title_size"
+        android:textStyle="bold"
+        />
+    <TextView
+        android:id="@+id/target_text_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@+id/translation_button_view"
+        android:layout_marginTop="@dimen/vertical_margin_normal"
+        android:textSize="@dimen/normal_size"
+        android:text="Hello"
+        android:layout_marginHorizontal="@dimen/text_horizontal_margin_size"
+        />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
