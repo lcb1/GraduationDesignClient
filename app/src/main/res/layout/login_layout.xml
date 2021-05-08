@@ -20,10 +20,8 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         app:layout_constraintTop_toBottomOf="@id/login_label_view"
-        android:layout_marginHorizontal="@dimen/text_horizontal_margin_size"
         android:hint="@string/login_account_input_val"
-        android:textSize="@dimen/smaller_title_size"
-        android:textStyle="bold"
+        style="@style/edit_text_style"
         />
     <EditText
         android:id="@+id/login_password_input_view"
@@ -31,11 +29,9 @@
         android:layout_height="wrap_content"
         app:layout_constraintTop_toBottomOf="@id/login_account_input_view"
         android:layout_marginTop="@dimen/vertical_margin_normal"
-        android:layout_marginHorizontal="@dimen/text_horizontal_margin_size"
         android:hint="@string/login_password_input_val"
         android:inputType="textPassword"
-        android:textSize="@dimen/smaller_title_size"
-        android:textStyle="bold"
+        style="@style/edit_text_style"
         />
 
     <Button

@@ -21,13 +21,20 @@
                 <category android:name="android.intent.category.LAUNCHER"/>
             </intent-filter>
         </activity>
+
         <activity android:name=".activity.FunctionSelectActivity">
 
         </activity>
+
         <activity android:name=".activity.TranslationActivity">
 
         </activity>
+
         <activity android:name=".activity.WordQueryActivity">
+
+        </activity>
+
+        <activity android:name=".activity.RegisterActivity">
 
         </activity>
     </application>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/word_item_bg"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <TextView
+        android:id="@+id/word_text_view"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBaseline_toBaselineOf="@id/uk_phone_text_view"
+        app:layout_constraintEnd_toStartOf="@id/uk_phone_text_view"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintHorizontal_weight="4"
+        android:textSize="@dimen/normal_size"
+        android:layout_marginVertical="@dimen/text_horizontal_margin_size"
+        android:layout_marginHorizontal="@dimen/text_horizontal_margin_size"
+        android:text="Hello"
+        />
+    <TextView
+        android:id="@+id/uk_phone_text_view"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@id/word_text_view"
+        app:layout_constraintHorizontal_weight="6"
+        android:textSize="@dimen/small_size"
+        android:layout_marginVertical="@dimen/text_horizontal_margin_size"
+        android:layout_marginHorizontal="@dimen/text_horizontal_margin_size"
+
+        />
+    <TextView
+        android:id="@+id/target_text_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/uk_phone_text_view"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:textSize="@dimen/small_size"
+        android:layout_marginBottom="@dimen/text_horizontal_margin_size"
+        android:layout_marginHorizontal="@dimen/text_horizontal_margin_size"
+
+        />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

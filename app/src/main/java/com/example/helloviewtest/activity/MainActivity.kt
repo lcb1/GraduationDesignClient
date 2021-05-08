@@ -1,10 +1,16 @@
 package com.example.helloviewtest.activity
 
 
+import android.annotation.SuppressLint
+import android.content.res.Resources
+import android.graphics.Color
 import android.os.Build
 import android.util.Log
+import android.view.MotionEvent
+import android.view.View
 import android.widget.Button
 import android.widget.EditText
+import android.widget.TextView
 import android.widget.Toast
 import androidx.annotation.RequiresApi
 import androidx.lifecycle.Observer
@@ -13,6 +19,8 @@ import com.example.helloviewtest.R
 import com.example.helloviewtest.model.LoginViewModel
 import com.example.helloviewtest.repo.LoginRepo
 import com.example.helloviewtest.utils.*
+import org.w3c.dom.Text
+
 
 class MainActivity :BaseActivity() {
 
@@ -25,6 +33,8 @@ class MainActivity :BaseActivity() {
     private var mAccountInputView:EditText?=null
     private var mPasswordInputView:EditText?=null
     private var mLoginButton: Button?=null
+    private var mRegisterTextView:TextView?=null
+
     private val loginRepo by lazy {
         AppUtil.retrofit.create(LoginRepo::class.java)
     }
@@ -43,6 +53,22 @@ class MainActivity :BaseActivity() {
         mLoginButton=findViewById<Button>(R.id.login_button_view).apply {
             setOnClickListener { handleLoginButtonClicked() }
         }
+        mRegisterTextView=findViewById<TextView>(R.id.login_to_register_view).apply {
+
+            setOnClickListener { handleRegisterTextViewClicked()  }
+
+        }
+
+
+    }
+
+
+
+    private fun handleRegisterTextViewClicked(){
+        jumpToRegisterActivity()
+    }
+    private fun jumpToRegisterActivity(){
+        RegisterActivity.startActivity()
     }
 
     private fun handleLoginButtonClicked(){
@@ -68,6 +94,7 @@ class MainActivity :BaseActivity() {
         }
         if(result.isOk()){
             AppUtil.storePut(LOGIN_STATE, IS_OK)
+
             loginIsOk()
         }
     }

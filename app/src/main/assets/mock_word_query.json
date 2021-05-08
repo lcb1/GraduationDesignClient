@@ -1,0 +1,155 @@
+{
+  "code": 200,
+  "data": [
+    {
+      "raw_word": "coil",
+      "uk_phone": "kɒɪl",
+      "target": "v. 盘绕，把…卷成圈   n. 线圈；卷"
+    },
+    {
+      "raw_word": "comedy",
+      "uk_phone": "'kɒmɪdɪ",
+      "target": "n. 喜剧；喜剧性；有趣的事情"
+    },
+    {
+      "raw_word": "copper",
+      "uk_phone": "'kɒpə",
+      "target": "n. 铜；铜币；警察   adj. 铜制的   v. 镀铜"
+    },
+    {
+      "raw_word": "coffee",
+      "uk_phone": "'kɒfɪ",
+      "target": "n. 咖啡；咖啡豆；咖啡色"
+    },
+    {
+      "raw_word": "convert",
+      "uk_phone": "kən'vɜːt",
+      "target": "v. 使转变；转换…；使…改变信仰   n. 皈依者；改变宗教信仰者"
+    },
+    {
+      "raw_word": "coinage",
+      "uk_phone": "'kɒɪnɪdʒ",
+      "target": "n. 造币；[金融] 货币制度；新造的字及其语等"
+    },
+    {
+      "raw_word": "cordial",
+      "uk_phone": "'kɔːdɪəl",
+      "target": "adj. 热忱的，诚恳的；兴奋的   n. 补品；兴奋剂；甜香酒，甘露酒"
+    },
+    {
+      "raw_word": "commune",
+      "uk_phone": "'kɒmjuːn",
+      "target": "v. 谈心，亲密交谈；密切联系   n. 公社"
+    },
+    {
+      "raw_word": "confuse",
+      "uk_phone": "kən'fjuːz",
+      "target": "v. 使混乱；使困惑"
+    },
+    {
+      "raw_word": "convince",
+      "uk_phone": "kən'vɪns",
+      "target": "v. 说服；使确信，使信服"
+    },
+    {
+      "raw_word": "covenant",
+      "uk_phone": "'kʌv(ə)nənt",
+      "target": "n. 契约，盟约；圣约；盖印合同   v. 订立盟约、契约"
+    },
+    {
+      "raw_word": "compound",
+      "uk_phone": "'kɒmpaʊnd",
+      "target": "n. [化学] 化合物；混合物；复合词   adj. 复合的；混合的   v. 合成；混合；恶化，加重；和解，妥协"
+    },
+    {
+      "raw_word": "cocktail",
+      "uk_phone": "'kɒkteɪl",
+      "target": "n. 鸡尾酒；开胃食品   adj. 鸡尾酒的"
+    },
+    {
+      "raw_word": "conclude",
+      "uk_phone": "kən'kluːd",
+      "target": "v. 推断；决定，作结论；结束"
+    },
+    {
+      "raw_word": "conspire",
+      "uk_phone": "kən'spaɪə",
+      "target": "v. 共谋；协力"
+    },
+    {
+      "raw_word": "constable",
+      "uk_phone": "'kʌnstəb(ə)l; 'kɒn-",
+      "target": "n. 治安官，巡警；警察"
+    },
+    {
+      "raw_word": "cooperate",
+      "uk_phone": "kəʊ'ɒpəreɪt",
+      "target": "v. 合作，配合；协力"
+    },
+    {
+      "raw_word": "conceptual",
+      "uk_phone": "kən'septjʊəl",
+      "target": "adj. 概念上的"
+    },
+    {
+      "raw_word": "competence",
+      "uk_phone": "'kɒmpɪt(ə)ns",
+      "target": "n. 能力，胜任；权限；作证能力；足以过舒适生活的收入"
+    },
+    {
+      "raw_word": "concerning",
+      "uk_phone": "kən'sɜːnɪŋ",
+      "target": "prep. 关于；就…而言   v. 涉及；使关心（concern的ing形式）；忧虑"
+    },
+    {
+      "raw_word": "commemorate",
+      "uk_phone": "kə'meməreɪt",
+      "target": "v. 庆祝，纪念；成为…的纪念"
+    },
+    {
+      "raw_word": "conceivable",
+      "uk_phone": "kən'siːvəb(ə)l",
+      "target": "adj. 可能的；想得到的，可想像的"
+    },
+    {
+      "raw_word": "comparative",
+      "uk_phone": "kəm'pærətɪv",
+      "target": "adj. 比较的；相当的   n. 比较级；对手"
+    },
+    {
+      "raw_word": "concentrate",
+      "uk_phone": "'kɒns(ə)ntreɪt",
+      "target": "v. 集中；浓缩；全神贯注；聚集   n. 浓缩，精选；浓缩液"
+    },
+    {
+      "raw_word": "conjunction",
+      "uk_phone": "kən'dʒʌŋ(k)ʃ(ə)n",
+      "target": "n. 结合；[语] 连接词；同时发生"
+    },
+    {
+      "raw_word": "contemporary",
+      "uk_phone": "kən'temp(ə)r(ər)ɪ",
+      "target": "n. 同时代的人；同时期的东西   adj. 当代的；同时代的；属于同一时期的"
+    },
+    {
+      "raw_word": "commensurate",
+      "uk_phone": "kə'menʃ(ə)rət; -sjə-",
+      "target": "adj. 相称的；同量的；同样大小的"
+    },
+    {
+      "raw_word": "cosmopolitan",
+      "uk_phone": ",kɒzmə'pɒlɪt(ə)n",
+      "target": "adj. 世界性的；世界主义的，四海一家的   n. 四海为家者；世界主义者；世界各地都有的东西"
+    },
+    {
+      "raw_word": "comparatively",
+      "uk_phone": "kəm'pærətɪvlɪ",
+      "target": "adv. 比较地；相当地"
+    },
+    {
+      "raw_word": "conscientiously",
+      "uk_phone": "kɔnʃi'enʃəsli",
+      "target": "adv. 良心上"
+    }
+  ]
+}

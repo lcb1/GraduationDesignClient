@@ -29,16 +29,20 @@ class FunctionSelectActivity:BaseActivity() {
         }
     }
 
-    fun handleTranslationViewClicked(){
+    private fun handleTranslationViewClicked(){
         jumpToTranslationActivity()
     }
 
-    fun jumpToTranslationActivity(){
+    private fun jumpToTranslationActivity(){
         TranslationActivity.startActivity()
     }
 
-    fun handleWordQueryViewClicked(){
+    private fun handleWordQueryViewClicked(){
+        jumpToWordQueryActivity()
+    }
 
+    private fun jumpToWordQueryActivity(){
+        WordQueryActivity.startActivity()
     }
 
     override fun observeLiveData() {

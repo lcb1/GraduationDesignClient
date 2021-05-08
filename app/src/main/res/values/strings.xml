@@ -16,4 +16,15 @@
 
     <!--  translation_layout      -->
     <string name="translation_button_view_val">翻译</string>
+
+    <!--  word_query_layout  -->
+    <string name="word_query_input_hint_val">请输入:</string>
+
+    <!--  register_layout  -->
+
+    <string name="register_account__input_hint">请输入邮箱:</string>
+    <string name="register_password_inout_hint">请输入密码:</string>
+    <string name="register_send_verify_code_val">发送验证码</string>
+    <string name="register_button_val">注册</string>
+
 </resources>

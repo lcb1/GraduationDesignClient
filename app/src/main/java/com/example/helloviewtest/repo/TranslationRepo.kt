@@ -7,7 +7,13 @@ import retrofit2.http.Path
 
 interface TranslationRepo {
 
-    @GET("translation/{raw_text}")
+    companion object{
+        private const val TRANSLATION_API10="translation/{raw_text}"
+        private const val TRANSLATION_API11="translation/api11/{raw_text}"
+    }
+
+
+    @GET(TRANSLATION_API11)
     fun translationRawText(@Path("raw_text") rawText:String): Observable<Result>
 
 
